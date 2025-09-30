@@ -20,8 +20,8 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
   background: var(--primary-color);
   padding: 1rem 2rem;
@@ -29,6 +29,10 @@ header {
 
 header .logo img {
   height: 60px;
+}
+
+header nav {
+  justify-self: end; 
 }
 
 nav ul {
