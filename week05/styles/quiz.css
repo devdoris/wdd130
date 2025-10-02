@@ -1,0 +1,31 @@
+h1 {
+    color: rgb(9, 0, 139);;
+}
+
+form {
+    background-color: rgb(238, 238, 238);
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.exampleCode {
+    background-color: rgb(68, 67, 67);
+    color: white;
+    margin-left: 2rem;
+    margin-right: 25rem;
+    padding-left: .25rem;
+}
+
+button {
+    background-color: rgb(8, 0, 128);
+    padding: 10px;
+    color: white;
+    border-radius: .5rem;
+}
+
+label, input, textarea, select, button {
+    margin: .5rem;
+}
