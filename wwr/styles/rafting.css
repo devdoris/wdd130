@@ -226,6 +226,167 @@ figcaption {
   display: block;
 }
 
+.index-body {
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+.index-hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/rafting53_600.jpg");
+}
+
+.index-hero h1 {
+  color: wheat;
+  margin-bottom: 0.5rem;
+
+}
+
+.index-hero p {
+  margin: 0.5rem auto;
+  font-size: 1.1rem;
+  max-width: 600px;
+  color: white;
+}
+
+.index-hero .cta {
+  display: inline-block;
+  background: #4e73df;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.index-hero .cta:hover {
+  background: #2e59d9;
+}
+
+.features h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.features ul {
+  list-style-type: disc;
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 700px;
+}
+
+.upcoming-trips {
+  margin-top: 3rem;
+}
+
+.upcoming-trips h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.trip-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.trip-card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/rafting59_600.jpg");
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1.5rem;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.trip-card:hover {
+  transform: scale(1.02);
+}
+
+.trip-card h3 {
+  color: wheat;
+  margin-bottom: 0.5rem;
+}
+
+.trip-card p {
+  color: wheat;
+}
+
+.trip-card a {
+  color: wheat;
+}
+
+.trips-main h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--tertiary-color1);
+}
+
+.trips-main .intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trips-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.trip:hover {
+  transform: scale(1.02);
+}
+
+.trip {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/index-image2.webp");;
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+}
+
+.trip h2 {
+  color: rgb(153, 153, 246);
+  margin-bottom: 0.5rem;
+}
+
+.trip p {
+  color: beige;
+  margin-bottom: 0.5rem;
+}
+
+.book-cta {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.book-cta h2 {
+  margin-bottom: 1rem;
+}
+
+.book-cta .cta {
+  display: inline-block;
+  background: var(--tertiary-color1);
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.book-cta .cta:hover {
+  background: var(--hover-color);
+}
+
 footer {
   background: var(--primary-color);
   display: flex;
