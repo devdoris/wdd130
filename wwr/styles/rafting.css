@@ -8,6 +8,7 @@
     --hover-color: #274ac0;
     --background-color: #f9f9f9;
     --border-color: #ddd;
+    --text-light: #ffffff;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -97,7 +98,7 @@ nav a {
 }
 
 .contact-form button {
-  background: var(--tertiary-color1);
+  background: #274ac0;
   color: #fff;
   padding: 0.8rem;
   border: none;
@@ -106,7 +107,7 @@ nav a {
 }
 
 .contact-form button:hover {
-  background: var(--hover-color);
+  background: #1f3cae;
 }
 
 main {
@@ -200,7 +201,7 @@ h1 {
 figcaption {
   margin-top: 0.5rem;
   font-size: 0.9rem;
-  color: var(--poly-color);
+  color: #0d0d0d;
 }
 
 .employees {
@@ -232,15 +233,22 @@ figcaption {
 }
 
 .index-hero {
+  position: relative;
   text-align: center;
   padding: 3rem 1rem;
   border-radius: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  overflow: hidden; 
+  background-color: #2b3b52; 
+  background-image:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
     url("../images/rafting53-600.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .index-hero h1 {
-  color: #fefefe;
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.65);
   margin-bottom: 0.5rem;
 
 }
@@ -249,22 +257,28 @@ figcaption {
   margin: 0.5rem auto;
   font-size: 1.1rem;
   max-width: 600px;
-  color: #fefefe;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
 }
 
 .index-hero .cta {
   display: inline-block;
-  background: #4e73df;
-  color: #fefefe;
+  background: #13418b;
+  color: #ffffff;
   padding: 0.8rem 1.2rem;
   border-radius: 6px;
+  border: 2px solid rgba(0,0,0,0.15);
+  box-shadow: 0 6px 18px rgba(19,65,139,0.18);
   text-decoration: none;
   margin-top: 1rem;
   font-weight: bold;
 }
 
-.index-hero .cta:hover {
-  background: #2e59d9;
+.index-hero .cta:hover,
+.index-hero .cta:focus {
+  background: #0f326d; /* darker blue */
+  outline: none;
+  transform: translateY(-2px);
 }
 
 .features h2 {
@@ -310,16 +324,20 @@ figcaption {
 }
 
 .trip-card h3 {
-  color: #fff;
+  background-color: #d9d9d9;
+  color: #111111;
   margin-bottom: 0.5rem;
+  border-radius: 10px;
 }
 
 .trip-card p {
-  color: #fff;
+  background-color: #d9d9d9;
+  color: #111111;
+  border-radius: 10px;
 }
 
 .trip-card a {
-  color: #fff;
+  color: #111111;
 }
 
 .trips-main h1 {
@@ -355,12 +373,12 @@ figcaption {
 }
 
 .trip h2 {
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 0.5rem;
 }
 
 .trip p {
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 0.5rem;
 }
 
@@ -389,8 +407,8 @@ figcaption {
 }
 
 .signup-form button {
-  background: #3856c9;
-  color: white;
+  background: #2c46b3;
+color: #fff;
   padding: 0.8rem 1.5rem;
   border: none;
   border-radius: 5px;
@@ -419,14 +437,13 @@ figcaption {
 }
 
 .trip-summary th {
-  background: var(--tertiary-color1);
+  background: #274ac0;;
   color: white;
 }
 
 .trip-summary tr:nth-child(even) {
   background: #f2f2f2;
 }
-
 
 .book-cta {
   margin-top: 3rem;
@@ -439,7 +456,7 @@ figcaption {
 
 .book-cta .cta {
   display: inline-block;
-  background: var(--tertiary-color1);
+  background: #274ac0;;
   color: white;
   padding: 0.8rem 1.2rem;
   border-radius: 6px;
@@ -448,7 +465,7 @@ figcaption {
 }
 
 .book-cta .cta:hover {
-  background: var(--hover-color);
+  background: #1f3cae;;
 }
 
 footer {
